@@ -1,0 +1,174 @@
+/*    PAGINA TODA    */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&display=swap');
+* {
+    margin: 0;
+}
+/*?     BANNER DNC    */
+#bannerDnc {
+    background-image: url(assets/img/banner/banner.svg);
+}
+#logo {
+    margin: 40px 0px 0px 40px;
+}
+#bannerDnc h1 {
+    margin: 55px 0px 0px 130px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 128.5%; /* 51.4px */
+}
+#bannerDnc p {
+    margin: 32px 0px 0px 130px;
+    padding-bottom: 100px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+/*?        INFO       */
+#info {
+    background-color: #EAECE5;
+    padding: 60px 50px;
+    display: grid;
+    grid-auto-flow: column;
+}
+#info img {
+    padding-right: 15px;
+}
+#info p {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 50px;
+    list-style: none;
+    color: #122235;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/*?     SEÇÃO CTA     */
+#cta {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#videoCta {
+    margin: 50px 32px 50px 120px;
+}
+#textCta {
+    margin-left: 32px;
+}
+#textCta h1 {
+    margin-top: 58px;
+    color: #247BA0;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+#textCta p {
+    margin-top: 24px;
+    color: #383838;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+/*?     FEEDBACK      */
+#carrossel {
+    width: 100%;
+    height: 445px;
+    background-color: #247BA0;
+}
+#carrossel h1 {
+    padding-top: 80px;
+    margin-bottom: 60px;
+    text-align: center;
+    color: #EAECE5;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+
+}
+     /*! cards */
+#cards {
+    display: grid;
+    grid-auto-flow: column;
+}
+.card {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.seta {
+    cursor: pointer;
+    margin-top: 63%;
+    margin-left: 0;
+}
+.seta:hover{
+    transform: scale(1.3)
+}
+#seta_esquerda, #samantha {
+    display: none;
+}
+/*?     FORMULÁRIO    */
+#formulario {
+    text-align: center;
+}
+#formulario h1{
+    margin: 25px 0px 45px 0px;
+    color: #383838;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: bold;
+    font-weight: 700;
+    line-height: 150%;
+}
+#formulario input {
+    background-color: #EAECE5;
+    color: #383838;
+    margin-bottom: 40px;
+    padding: 0px 15px;
+    width: 410px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+#formulario button {
+    margin-bottom: 110PX;
+    background-color: #247BA0;
+    color: #FFF;
+    width: 335px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: none;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bolder;
+    line-height: 150%;
+
+    cursor: pointer;
+}
+#formulario button:hover {
+    background-color: #1892c7;
+    color: white;
+    transform: translateY(-7px);
+    transition-duration: 0.3s;
+    box-shadow: 0px 10px 20px #0b2c3a98;
+}
