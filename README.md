@@ -1,4 +1,4 @@
-<h1 align="center">:file_cabinet: Projeto DNC -</h1>
+<h1 align="center">:file: Projeto DNC -</h1>
 
 ## :dart: Objetivo
 
