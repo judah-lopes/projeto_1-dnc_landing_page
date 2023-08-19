@@ -6,7 +6,7 @@ Criar uma landing page como portfólio para uma empresa de arquitetura.
 
 ## :memo: Descrição
 
-    O desafio pede para que eu crie um projeto de uma landing page com o objetivo de me destacar em
+O desafio pede para que eu crie um projeto de uma landing page com o objetivo de me destacar em
 uma proposta de trabalho. Para isso, devo usar o protótipo do FIGMA fornecido para estruturar
 o front-end usando HTML e CSS, por fim usando o JS para adicionar funcionalidade no projeto.
 
